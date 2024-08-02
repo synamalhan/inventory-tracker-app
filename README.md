@@ -1,4 +1,4 @@
-# Inventory Tracker
+# 🍞 Inventory Tracker 🍞
 
 ## Project Overview
 
