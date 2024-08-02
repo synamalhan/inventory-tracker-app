@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Inventory Tracker
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+The Inventory Tracker is a web application designed to help users manage their inventory efficiently. Users can add, remove, update, search, and sort items based on tags and names. The application features a user-friendly interface with a collapsible information box to guide users on how to use the system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Add Items**: Add new items to the inventory with optional tags.
+- **Remove Items**: Remove items from the inventory or decrease their quantity.
+- **Update Items**: Adjust item quantities and tags.
+- **Search**: Search for items by name.
+- **Filter by Tag**: Filter items based on assigned tags.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **React**: JavaScript library for building user interfaces.
+- **Material-UI**: React components for faster and easier web development.
+- **Firebase**: Backend service for data storage and retrieval.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To set up and run the Inventory Tracker on your local machine, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
+   '''bash
+   git clone https://github.com/your-username/inventory-tracker.git
+   cd inventory-tracker
+   '''
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Install dependencies**:
+   Make sure you have [Node.js](https://nodejs.org/) installed, then run:
+   '''bash
+   npm install
+   '''
 
-## Deploy on Vercel
+3. **Set up Firebase**:
+   - Create a Firebase project if you haven't already.
+   - Obtain your Firebase configuration and add it to a `firebase.js` file in the `src` directory.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Run the application**:
+   '''bash
+   npm start
+   '''
+   This will start the development server, and you can access the application at `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+
+1. **Adding Items**:
+   - Click the "Add New Item" button.
+   - Enter the item name and tags.
+   - Click "Add" to save the item to the inventory.
+
+2. **Removing Items**:
+   - Find the item in the list.
+   - Click the "-" button to decrease its quantity or remove it if the quantity reaches zero.
+
+3. **Updating Items**:
+   - Items are updated automatically when quantities are adjusted.
+
+4. **Searching and Filtering**:
+   - Use the search bar to find items by name.
+   - Use the filter dropdown to view items with specific tags.
+
+5. **Expanding Information**:
+   - Click the "Expand Info" button to view additional instructions on how to use the application. Click "Collapse Info" to hide it.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out to me on [LinkedIn](https://linkedin.com/in/synamalhan) and [GitHub](https://github.com/synamalhan).
