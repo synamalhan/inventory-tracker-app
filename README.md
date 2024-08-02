@@ -24,25 +24,25 @@ The Inventory Tracker is a web application designed to help users manage their i
 To set up and run the Inventory Tracker on your local machine, follow these steps:
 
 1. **Clone the repository**:
-   '''bash
+   ```bash
    git clone https://github.com/your-username/inventory-tracker.git
    cd inventory-tracker
-   '''
+   ```
 
 2. **Install dependencies**:
    Make sure you have [Node.js](https://nodejs.org/) installed, then run:
-   '''bash
+   ```bash
    npm install
-   '''
+   ```
 
 3. **Set up Firebase**:
    - Create a Firebase project if you haven't already.
    - Obtain your Firebase configuration and add it to a `firebase.js` file in the `src` directory.
 
 4. **Run the application**:
-   '''bash
-   npm start
-   '''
+   ```bash
+   npm run dev
+   ```
    This will start the development server, and you can access the application at `http://localhost:3000`.
 
 ## Usage
